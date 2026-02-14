@@ -53,9 +53,22 @@ nav li a {
     font-size: 20px;
 }
 
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /*banner style*/
 .banner {
     display: flex;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 580px;
+    margin-left: 230px;
+    margin-right: 38px;
 }
 
 .banner-hi {
