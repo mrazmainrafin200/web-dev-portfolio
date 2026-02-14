@@ -4,7 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /* shared style */
@@ -45,4 +45,26 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/*banner style*/
+.banner {
+    display: flex;
+}
+.banner-hi {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-profile-img {
+    width: 584px;
+    height: 676px;
 }
