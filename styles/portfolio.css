@@ -19,6 +19,10 @@
     color: #474747;
 }
 
+.dark-3 {
+    color: #757575;
+}
+
 .btn-primary {
     background-color: #FD6E0A;
     font-size: 20px;
@@ -182,4 +186,48 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* resume-section */
+
+.section-title-resume {
+    margin-top: 130px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-colume-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.resume hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    margin-top: 50px;
 }
