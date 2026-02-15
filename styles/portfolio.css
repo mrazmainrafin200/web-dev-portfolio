@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -97,16 +102,20 @@ nav li a {
 .banner-hi {
     font-size: 45px;
     font-weight: 600;
+    margin-top: 185px;
+    margin-bottom: 5px;
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .banner-description {
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .banner-profile-img {
@@ -121,6 +130,13 @@ main {
 }
 
 /* About styles*/
+.section-title-about {
+    margin-bottom: 30px;
+}
+
+.section-description-about{
+    margin-bottom: 30px;
+}
 
 .border-box {
     border: 1px solid #333333;
@@ -156,6 +172,17 @@ main {
 }
 
 /* skills */
+.section-title-skills {
+    margin-bottom: 30px;
+}
+
+.skill-img {
+    margin-bottom: 30px;
+}
+
+.skill-title-style {
+    margin-bottom: 20px;
+}
 
 .skills {
     margin-top: 130px;
@@ -192,6 +219,7 @@ main {
 
 .section-title-resume {
     margin-top: 130px;
+    margin-bottom: 115px;
 }
 
 .resume-container {
@@ -233,6 +261,18 @@ main {
 }
 
 /* footer styles */
+.section-title-footer {
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    margin-bottom: 30px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
+}
 
 .footer {
     margin-top: 130px;
