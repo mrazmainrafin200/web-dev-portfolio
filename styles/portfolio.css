@@ -134,7 +134,7 @@ main {
     margin-bottom: 30px;
 }
 
-.section-description-about{
+.section-description-about {
     margin-bottom: 30px;
 }
 
@@ -274,7 +274,7 @@ main {
     gap: 24px;
 }
 
-.footer {
+footer {
     margin-top: 130px;
     padding: 130px 230px;
     display: flex;
@@ -285,13 +285,89 @@ main {
     width: 50%;
 }
 
-.footer input[type ="text"], .footer input[type="email"] , .footer textarea{
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
     height: 64px;
     width: 100%;
     border-radius: 5px;
     background-color: white;
     display: block;
-    padding: 18px ;
+    padding: 18px;
     margin-bottom: 24px;
     border: none;
+}
+
+/* Responsive style */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    body {
+        padding: 20px;
+    }
+
+    body br {
+        display: none;
+    }
+
+    .skills-container,
+    .resume-container,
+    .banner,
+    nav,
+    nav > ul,
+    footer,
+    .about-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav > ul > li {
+        gap: 0px;
+    }
+
+    .banner {
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    .banner-content {
+        margin: 0px;
+    }
+
+    .banner-profile-img {
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .footer-icon {
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer,
+    .about {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
+    }
 }
